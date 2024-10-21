@@ -2,22 +2,22 @@ import os, time
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "18946488")
+    API_HASH  = os.environ.get("API_HASH", "c163d4e28e63196c3806cf3b9b2885de")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7425999899:AAGuAV6Oh7w_QsHuItN8PkxXDgqBWTFbfAk") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","rename")     
-    DB_URL  = os.environ.get("DB_URL","")
- 
+    DB_NAME = os.environ.get("DB_NAME","sitaratoons")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://ajay393798:ijwrgGv5P4sIP54h@cluster0.eqraqbm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+ l
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN = int(os.environ.get("ADMIN", ""))
+    ADMIN = int(os.environ.get("ADMIN", "6692613520"))
 
     # channels logs
     FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002320080278"))
     
 
     # wes response configuration     
