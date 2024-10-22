@@ -8,7 +8,7 @@ class Config(object):
    
     # database config
     DB_NAME = os.environ.get("DB_NAME","sitaratoons")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://ajay393798:ijwrgGv5P4sIP54h@cluster0.eqraqbm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://ajay393798:btFPigbsUQK3MYt9@cluster0.ylenz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  l
     # other configs
     BOT_UPTIME  = time.time()
@@ -16,12 +16,12 @@ class Config(object):
     ADMIN = int(os.environ.get("ADMIN", "6692613520"))
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1001661877846") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002320080278"))
     
 
     # wes response configuration     
-    PORT = int(os.environ.get("PORT", ""))
+    PORT = int(os.environ.get("PORT", "8080"))
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
 
 #ʀᴀᴘᴏ ᴄʀᴇᴀᴛᴏʀ https://github.com/AshutoshGoswami24
