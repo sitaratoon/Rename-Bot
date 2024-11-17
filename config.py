@@ -7,8 +7,8 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","sitaratoons")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://ajay393798:btFPigbsUQK3MYt9@cluster0.ylenz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_NAME = os.environ.get("DB_NAME","")     
+    DB_URL  = os.environ.get("DB_URL","")
  l
     # other configs
     BOT_UPTIME  = time.time()
